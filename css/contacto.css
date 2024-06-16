@@ -9,16 +9,28 @@ body {
     padding: 24px;
     background-color:cornsilk;
 }
-input, textarea, button{
+input, button{
     margin: 4px 0;
     padding: 8px;
 
+}
+textarea{
+    margin: 4px 0;
+    padding: 8px;
+    width: 30%;
+    height: 25%;
 }
 .btn{
     border: none;
     color: white;
     cursor: pointer;
 
+}
+.btn-bd-primary {
+    background-color: rgb(236, 213, 120);
+  }
+.card-body{
+    background-color: cornsilk;
 }
 .Enviar{
     background-color:rgb(236, 213, 120) ;
